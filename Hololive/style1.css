@@ -1,0 +1,233 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Montserrat, sans-serif;
+  }
+
+
+
+
+  
+  nav {
+    background-color: rgba(255, 255, 255, 0.801);
+    height: 80px;
+    width: 100%;
+  }
+  
+  label.logo {
+    color: rgb(11, 190, 235);
+    font-size: 45px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    margin: -45px;
+  }
+  
+  nav ul {
+    float: right;
+    margin: 20px;
+    line-height: 45px;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 30px;
+  }
+  
+  nav li a {
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+
+
+
+  
+  
+  .horizontalImg {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .bg-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .info {
+    padding: 50px;
+  }
+
+  .info h1 {
+    text-align: center;
+    margin: 30px;
+  }
+
+  .info p{
+    text-align: center;
+    margin: 30px;
+  }
+
+  .boxinfo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 30px;
+  }
+  
+  .box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+
+
+
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+  
+  .box-content {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 350px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .box-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box-text {
+    text-align: auto;
+  }
+  
+  .box-text h1 {
+    margin: 20px ;
+  }
+
+  .box-text a{
+    color: black;
+    text-decoration: none;
+  }
+  
+  .box-text p {
+    margin-top: 50px;
+    flex-grow: 1;
+    text-align: left;
+  }
+  
+  
+  
+
+
+
+
+  .visitHeader {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  
+
+ 
+
+
+
+ .myfooter{
+  background-color: rgb(82, 208, 240);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ } 
+
+ .myfooter p{
+  color: #ffffff;
+ }
+
+ .Picture1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+  
+  @media screen and (max-width: 768px) {
+    nav {
+      height: auto;
+      display: block;
+    }
+  
+    label.logo {
+      padding: 0 20px;
+      margin: 0;
+      line-height: 60px;
+    }
+  
+    nav ul {
+      float: none;
+      margin: 0;
+      line-height: 60px;
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin: 0;
+    }
+  
+    nav li a {
+      display: block;
+      padding: 10px;
+    }
+  
+    .horizontalImg {
+      min-height: auto;
+    }
+  
+    .bg-image {
+      height: 100%;
+    }
+  
+    .info {
+      padding: 20px;
+    }
+
+    .boxinfo {
+        grid-template-columns: 1fr;
+      }
+
+    .container {
+      flex-direction: column; /* Stacking boxes vertically */
+      align-items: center; /* Centering boxes horizontally */
+    }
+  }
+  
+
